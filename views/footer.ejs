@@ -1,0 +1,13 @@
+<nav>
+    <div>The Odin Project</div>
+    <ul>
+      <% for (let i = 0; i < footerItems.length; i++) { %>
+        <li>
+          <a href="<%= footerItems[i].href %>">
+            <span> <%= footerItems[i].text %> </span>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+  </nav>
+  
